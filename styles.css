@@ -1,0 +1,215 @@
+body {
+    background-color: skyblue;
+}
+
+ul {
+    list-style-type: none;
+    padding:0;
+    margin:0;
+}
+
+li {
+    margin: 8px 0;
+    display: inline;
+    margin-right: 15px;
+}
+
+a {
+    text-decoration: none;
+    background-color: lightgrey;
+    padding: 8px 12px;
+    border-radius: 4ps;
+    color: white;
+}
+
+#sponsors {
+    color: blue;
+    background-color: skyblue;
+}
+
+h1 {
+    text-align: center;
+    
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+#image1 {
+    width: 100vw;
+}
+
+#image2 {
+    position: absolute;
+    top: 75px;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 80vw;
+    opacity: 0.8;
+}
+
+#test {
+    display: flex;
+}
+
+#test p {
+    padding: 10px;
+}
+
+#test img {
+    width: 40vw;
+}
+
+#archery img {
+    width: 40vw;
+}
+
+#archery {
+    display:flex;
+}
+
+#archery p {
+    padding: 10px;
+}
+
+#orienteering img {
+    width: 40vw;
+}
+
+#orienteering {
+    display:flex;
+}
+
+#orienteering p {
+    padding: 10px;
+}
+
+#axe img {
+    width: 40vw;
+}
+
+#axe {
+    display:flex;
+}
+
+#axe p {
+    padding: 10px;
+}
+
+#kayak img {
+    width: 40vw;
+}
+
+#kayak {
+    display:flex;
+}
+
+#kayak p {
+    padding: 10px;
+}
+
+#canoe img {
+    width: 40vw;
+}
+
+#canoe {
+    display:flex;
+}
+
+#canoe p {
+    padding: 10px;
+}
+
+#power img {
+    width: 40vw;
+}
+
+#power {
+    display:flex;
+}
+
+#power p {
+    padding: 10px;
+}
+
+#climb img {
+    width: 40vw;
+}
+
+#climb {
+    display:flex;
+}
+
+#climb p {
+    padding: 10px;
+}
+
+#abseil img {
+    width: 40vw;
+}
+
+#abseil {
+    display:flex;
+}
+
+#abseil p {
+    padding: 10px;
+}
+
+
+#pole img {
+    width: 40vw;
+}
+
+#pole {
+    display:flex;
+}
+
+#pole p {
+    padding: 10px;
+}
+
+#claire img {
+    width: 30vw;
+}
+
+#claire {
+    display:flex;
+}
+
+#claire p {
+    padding: 10px;
+}
+
+#robbie img {
+    width: 30vw;
+}
+
+#robbie {
+    display:flex;
+}
+
+#robbie p {
+    padding: 10px;
+}
+
+#marion img {
+    width: 30vw;
+}
+
+#marion {
+    display:flex;
+}
+
+#marion p {
+    padding: 10px;
+}
+
+

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lochquarry Outdoor Centre</title>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="land.html">Land Activities</a></li>
+                <li><a href="water.html">Water Activities</a></li>
+                <li><a href="rope.html">Rope Activities</a></li>
+                <!-- <li><a href="gallery.html">Gallery</a></li> -->
+                <li><a href="graph.html">Activities Graph</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+
+        <!--I want to insert an image here-->
+        <img id="image1" src="images/lochquarry.jpg" alt="a landscape scene with water">
+
+        <header>
+            <img id="image2" src="images/Lochquarry_Banner2.png" alt="A banner with the logo">
+            <h1>LOCHQUARRY OUTDOOR CENTRE</h1>
+        </header>
+
+        <section>
+            <div>
+                <h1>Interactive Gallery</h1>
+                <p>Click a thumbnail to change the main image.</p>
+            </div>
+            <main>
+                <section class="featured-area">
+                    <img id="featured-image" src="/images/activities/land/archery_1.jpg" alt="Featured image">
+                    <p id="caption">Archery 1</p>
+                </section>
+                <section class="gallery-grid">
+                    <img class="thumbnail" src="/images/activities/land/archery_1.jpg" alt="Archery 1" onclick="changeImage('/images/activities/land/archery_1.jpg' , 'Archery 1');">
+                    <img class="thumbnail" src="/images/activities/land/archery_2.jpg" alt="Archery 2" onclick="changeImage('/images/activities/land/archery_2.jpg' , 'Archery 2');">
+                    <img class="thumbnail" src="/images/activities/land/axe_1.jpg" alt="Axe 1" onclick="changeImage('/images/activities/land/axe_1.jpg' , 'Axe 1');">
+                    <img class="thumbnail" src="/images/activities/land/axe_2.jpg" alt="Axe 2" onclick="changeImage('/images/activities/land/axe_2.jpg' , 'Axe 2');">
+                    <img class="thumbnail" src="/images/activities/land/hillwalking_1.jpg" alt="Hillwalking 1" onclick="changeImage('/images/activities/land/hillwalking_1.jpg' , 'Hillwalking 1');">
+                    <img class="thumbnail" src="/images/activities/land/hillwalking_2.jpg" alt="Hillwalking 2" onclick="changeImage('/images/activities/land/hillwalking_2.jpg' , 'Hillwalking 2');">
+                    <img class="thumbnail" src="/images/activities/land/hillwalking_3.jpg" alt="Hillwalking 3" onclick="changeImage('/images/activities/land/hillwalking_3.jpg' , 'Hillwalking 3');">
+                    <img class="thumbnail" src="/images/activities/land/orienteering_1.jpg" alt="Orienteering 1" onclick="changeImage('/images/activities/land/orienteering_1.jpg' , 'Orienteering 1');">
+                    <img class="thumbnail" src="/images/activities/land/orienteering_2.jpg" alt="Orienteering 2" onclick="changeImage('/images/activities/land/orienteering_2.jpg' , 'Orienteering 2');">
+                    <img class="thumbnail" src="/images/activities/rope/abseiling_1.jpg" alt="Abseiling 1" onclick="changeImage('/images/activities/rope/abseiling_1.jpg' , 'Abseiling 1');">
+                    <img class="thumbnail" src="/images/activities/rope/abseiling_2.jpg" alt="Abseiling 2" onclick="changeImage('/images/activities/rope/abseiling_2.jpg' , 'Abseiling 2');">
+                    <img class="thumbnail" src="/images/activities/rope/climbing_1.jpg" alt="Climbing 1" onclick="changeImage('/images/activities/rope/climbing_1.jpg' , 'Climbing 1');">
+                    <img class="thumbnail" src="/images/activities/rope/climbing_2.jpg" alt="Climbing 2" onclick="changeImage('/images/activities/rope/climbing_2.jpg' , 'Climbing 2');">
+                    <img class="thumbnail" src="/images/activities/rope/climbing_3.jpg" alt="Climbing 3" onclick="changeImage('/images/activities/rope/climbing_3.jpg' , 'Climbing 3');">
+                    <img class="thumbnail" src="/images/activities/rope/pole_climb_1.jpg" alt="Pole Climb 1" onclick="changeImage('/images/activities/rope/pole_climb_1.jpg' , 'Pole Climb 1');">
+                    <img class="thumbnail" src="/images/activities/rope/pole_climb_2.jpg" alt="Pole Climb 2" onclick="changeImage('/images/activities/rope/pole_climb_2.jpg' , 'Pole Climb 2');">
+                    <img class="thumbnail" src="/images/activities/water/kayaking_1.jpg" alt="Kayaking 1" onclick="changeImage('/images/activities/water/kayaking_1.jpg' , 'Kayaking 1');">
+                    <img class="thumbnail" src="/images/activities/water/kayaking_2.jpg" alt="Kayaking 2" onclick="changeImage('/images/activities/water/Kayaking_2.jpg' , 'Kayaking 2');">
+                    <img class="thumbnail" src="/images/activities/water/kayaking_3.jpg" alt="Kayaking 3" onclick="changeImage('/images/activities/water/Kayaking_3.jpg' , 'Kayaking 3');">
+                    <img class="thumbnail" src="/images/activities/water/powerboating_1.jpg" alt="Powerboating 1" onclick="changeImage('/images/activities/water/powerboating_1.jpg' , 'Powerboating 1');">
+                    <img class="thumbnail" src="/images/activities/water/powerboating_2.jpg" alt="Powerboating 2" onclick="changeImage('/images/activities/water/powerboating_2.jpg' , 'Powerboating 2');">
+                    <img class="thumbnail" src="/images/nature/nature_1.jpg" alt="Nature 1" onclick="changeImage('/images/nature/nature_1.jpg' , 'Nature 1');">
+                    <img class="thumbnail" src="/images/nature/nature_2.jpg" alt="Nature 2" onclick="changeImage('/images/nature/nature_2.jpg' , 'Nature 2');">
+                    <img class="thumbnail" src="/images/nature/nature_3.jpg" alt="Nature 3" onclick="changeImage('/images/nature/nature_3.jpg' , 'Nature 3');">
+                    <img class="thumbnail" src="/images/nature/original2.jpg" alt="Nature 4" onclick="changeImage('/images/nature/original2.jpg' , 'Nature 4');">
+                    <img class="thumbnail" src="/images/nature/outdoors1.jpg" alt="Nature 5" onclick="changeImage('/images/nature/outdoors1.jpg' , 'Nature 5');">
+                
+                </section>
+            </main>
+
+            <br><br>
+
+            <section>
+                <h2>Sponsors</h2>
+                <p>Check out our partners at <a id="sponsors" href="https://www.gooutdoors.co.uk/collections/camping?gad_source=1&gad_campaignid=23649466519&gclid=EAIaIQobChMI_6fF_aKklAMVQJNQBh2r_yxfEAAYASAAEgJ1RvD_BwE" target="_blank">Go Outdoors</a></p>
+            </section>
+        
+            <br><br>
+            <script>
+                function changeImage(imageFile, captionText) {
+                    document.getElementById("featured-image").src = imageFile;
+                    document.getElementById("caption").textContent = captionText;
+                }
+            </script>
+
+        </section>
+            <p>‘Five stars, it was great’ − Joe, aged 14</p>
+        <br><br>
+            
+        <footer>
+        © Lochquarry Outdoor Centre. ALL RIGHTS RESERVED.
+        </footer>
+        
+    </body>
+</html>
